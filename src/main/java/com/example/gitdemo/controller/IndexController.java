@@ -20,4 +20,9 @@ public class IndexController {
       return "this is index2 method";
   }
 
+  @GetMapping("/index3")
+  public String index3() {
+      return "this is  index3 method by king1";
+  }
+
 }
