@@ -12,6 +12,11 @@ public class IndexController {
 
   @GetMapping("/index")
   public String index() {
-      return "this is gitdemo";
+    return "this is gitdemo";
+  }
+
+  @GetMapping("/index-master")
+  public String indexMaster() {
+    return "this is gitdemo indexMaster";
   }
 }
