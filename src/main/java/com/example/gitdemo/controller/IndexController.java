@@ -14,4 +14,10 @@ public class IndexController {
   public String index() {
       return "this is gitdemo";
   }
+
+  @GetMapping("/index2")
+  public String index2() {
+      return "this is index2 method";
+  }
+
 }
