@@ -15,6 +15,12 @@ public class IndexController {
     return "this is gitdemo";
   }
 
+  @GetMapping("/index2")
+  public String index2() {
+      return "this is  index2 method revert conflict cause this change";
+  }
+
+
   @GetMapping("/index-master")
   public String indexMaster() {
     return "this is gitdemo indexMaster";
