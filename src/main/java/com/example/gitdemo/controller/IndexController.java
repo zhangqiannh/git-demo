@@ -19,4 +19,10 @@ public class IndexController {
   public String indexMaster() {
     return "this is gitdemo indexMaster";
   }
+
+  @GetMapping("/index3")
+  public String index3() {
+      return "this is  index3 method by king1";
+  }
+
 }
