@@ -31,4 +31,9 @@ public class IndexController {
       return "this is  index3 method by king1";
   }
 
+  @GetMapping("/index4")
+  public String index4String() {
+      return "this is  index4 method by king1";
+  }
+
 }
